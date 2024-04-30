@@ -1,0 +1,15 @@
+# Ignore files created by the operating system
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+.env
+/env/
+
+# Ignore secret settings file (if any)
+secret_settings.py
